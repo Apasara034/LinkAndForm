@@ -14,14 +14,43 @@
         <input type="text" name="customer_name" size="25" maxlength="20"> 
 <p></p>
         <label for="email">Email : </label>
-        <input type="text" name="customer_email" size="25" maxlength="20"> 
+        <input type="email" name="customer_email" size="25" maxlength="20"> 
+        <p> </p>
+        <label for="password">Password : </label>
+        <input type="password" name="password" size="21" maxlength="15"> 
 <p></p>
-        <input type="submit" name="Subscribe"
-        value="Subscribe">
+       <label for="gender">Gender : </label>
+       <input type="radio" name="gender"> Female
+       <input type="radio" name="gender"> Male
+       <input type="radio" name="gender"> Other
+<p></p>
+       <label for="channel">Channel : </label>
+       <input type="checkbox" name="website"> Website
+       <input type="checkbox" name="newpapers"> Newpapers
+       <input type="checkbox" name="friends"> Friends
+ <p></p>
+       <label for="address" >Adress : </label>
+       <textarea name="address"  cols="25" rows="5"></textarea>
 
 
+ <p></p>
+       <label for="province">Province : </label>
+       <select name="province" id="">
+        <option value="84">Surat Thani</option>
+        <option value="92">Trang</option>
+        <option value="10">Bangkok</option>
+       </select>
+
+ <p></p>
+        <input type="submit" name="Subscribe"value="Subscribe">
+        <input type="reset" name="reste" value="Clear">
     </form>
-    <br>
+<br>
+        <label for="picture">Photo :</label>
+        <input type="file" name="profile_pic">
+
+<p></p>
     <a href="index.html">HOME</a>
+
 </body>
 </html>
